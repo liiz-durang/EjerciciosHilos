@@ -3,7 +3,6 @@
 package ejercicio3;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 //3 hilos con sleep
 public class Ejercicio3Main {
