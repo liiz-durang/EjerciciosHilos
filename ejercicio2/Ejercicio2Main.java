@@ -1,16 +1,14 @@
-//Creación de un hilo
+//Metodo sleep
 
-package ejercicio1;
+package ejercicio2;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-
-public class Ejercicio1Main {
+public class Ejercicio2Main {
     public static void main(String[] args) {
         
-        //Crea una nueva instancia del hilo.
-        Ejercicio1Hilo hilo = new Ejercicio1Hilo();
+        Ejercicio2Hilo hilo = new Ejercicio2Hilo();
         //Inicia la ejecución del hijo. A partir de esta linea se estan corriendo en paralelo. 
         hilo.start();
         System.out.println("Hola. Soy hilo principal");
@@ -20,6 +18,5 @@ public class Ejercicio1Main {
         System.out.println("Hilo principal terminó a las " + hora);
         
 
-           
-    }   
+    }
 }
